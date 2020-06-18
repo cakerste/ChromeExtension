@@ -1,1 +1,8 @@
-document.addEventListener('scroll', () => alert('Watch out, it is DJ Khaled!'));
+chrome.runtime.onMessage.addListener((message)=>{
+	console.log(message.txt);
+	let paragraphs = document.getElementsByTagName("p");
+	for(elt of paragraphs)
+	{
+		elt.style['background-color'] = '#00CED1';
+	}
+});
