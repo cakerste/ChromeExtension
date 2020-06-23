@@ -1,7 +1,7 @@
 {
-  "name": "Vanessa's plugin",
-  "version": "0.0.1",
-  "description": "This is the full description of the plugin",
+  "name": "Paragraph color changer",
+  "version": "1.0",
+  "description": "Changes the background color of all the paragraphs given a hex value entered by the user",
   "manifest_version": 2,
   "browser_action": {
     "default_popup": "./index.html",

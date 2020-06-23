@@ -1,5 +1,4 @@
 document.addEventListener('DOMContentLoaded', ()=>{
-    console.log("Hey");
 	var b = document.getElementById("change");
 	b.addEventListener('click', function() {
 		let color = document.getElementById("color").value;
