@@ -1,9 +1,32 @@
 body {
     background-color: lightblue;
-   
+    min-width: 300px;
+    min-height: 300px;
 }
 
 h1 {
     color: navy;
-    margin-left: 20px;
+    text-align: center;
+}
+
+canvas {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+input {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 5px;
+}
+
+button {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
 }

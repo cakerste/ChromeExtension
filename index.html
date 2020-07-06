@@ -1,14 +1,16 @@
 <html>
     <head>
-    <link rel="stylesheet" type="text/css" href="design.css">
+        <link rel="stylesheet" type="text/css" href="design.css">
+        <script src="html5kellycolorpicker.min.js"></script>
     </head>
     <body>
         <h1>Color changer</h1>
         <form>
-            <label for="color">Color (in hex):</label><br>
-            <input type="text" id="color" name="color"><br>
+            <canvas id="picker" width=150 height=150></canvas>
+            <input id="color" name="color" value="#54aedb"><br>
             <button type="button" id="change">Change Color</button>
         </form>
+        <script src="colorpicker.js"></script>
         <script src="background.js"></script>
     </body>
 </html>
